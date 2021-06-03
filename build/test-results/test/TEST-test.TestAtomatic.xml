@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.TestAtomatic" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-29T16:02:31" hostname="DESKTOP-K67MERB" time="58.388">
+  <properties/>
+  <testcase name="test" classname="test.TestAtomatic" time="58.388"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1622304154750	geckodriver	INFO	Listening on 127.0.0.1:49003
+1622304156988	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\megat\\AppData\\Local\\Temp\\rust_mozprofile0pYU4y"
+1622304163717	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\megat\\AppData\\Local\\Temp\\rust_mozprofile0pYU4y\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1622304186081	Marionette	INFO	Listening on port 59656
+1622304186594	Marionette	WARN	TLS certificate errors will be ignored for this session
+may 29, 2021 11:03:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Parent 13124, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+]]></system-err>
+</testsuite>
